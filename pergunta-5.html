@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Pergunta 05</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>Teste de Identificação da necessidade de Investigação para AH/SD</h1>
+    </header>
+    <div class="question-container">
+        <h2>05/84 - As emoções dos filmes, livros ou músicas frequentemente me afetam profundamente.</h2>
+        <label for="answer">Sua resposta:</label>
+        <input type="range" id="answer" name="answer" min="1" max="7" value="4">
+        <input type="hidden" id="current-page" name="current-page" value="01">
+        <input type="hidden" id="question-type" name="question-type" value="Positiva">
+        <input type="hidden" id="score" name="score">
+        <div id="slider-marks">
+            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span>
+        </div>
+        <div class="buttons">
+            <button id="back" onclick="navigateBack()">Voltar</button>
+            <button id="forward" onclick="navigateForward()">Avançar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

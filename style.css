@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto','Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.question-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 800px;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 15px 0;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.score {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #1669c1;
+}
+.page-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding-top: 60px; /* Espaço para o cabeçalho */
+}
+
+/* Restante do CSS permanece inalterado */
+/* Adicione isso ao seu CSS existente */
+
+#slider-marks {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#slider-marks span {
+    display: block;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: #ddd;
+    border: none;
+    height: 8px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 24px;
+    width: 24px;
+    background: #1a73e8;
+    margin-top: -8px;
+    border-radius: 50%;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+input[type=range]::-moz-range-track {
+    background: #ddd;
+    border: none;
+    height: 8px;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 24px;
+    width: 24px;
+    background: #1a73e8;
+    border-radius: 50%;
+}
+
+input[type=range]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #ddd;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #ddd;
+}
+
+input[type=range]::-ms-thumb {
+    border: none;
+    height: 24px;
+    width: 24px;
+    background: #1a73e8;
+    border-radius: 50%;
+}
+.input-sem-bordas {
+    font-size: 20px; /* Tamanho maior da fonte para destaque */
+    font-weight: bold; /* Fonte em negrito */
+    color: #333; /* Cor do texto */
+    background-color: #f0f0f0; /* Cor de fundo para diferenciar do input normal */
+    border: none; /* Remove as bordas */
+    outline: none; /* Remove o contorno ao focar */
+    padding: 10px; /* Espaço interno para melhor visualização */
+    width: 90%; /* Largura do input */
+    text-align: center;
+}
+
