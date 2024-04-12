@@ -22,5 +22,5 @@ window.onload = function() {
         document.getElementById('Resultado').value = showResult;
 }
 function navigateHome() {
-    window.location.href = "bem-vindo.html";
+    window.location.href = "index.html";
 }
