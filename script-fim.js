@@ -7,14 +7,14 @@ window.onload = function() {
 
     switch (true) {
 
-        case (scoreResultado > 0 && scoreResultado <= 6) :
-            showResult = `Score: ${scoreResultado} - BAIXA indicação para a investigação de AH/SD`;
+        case (scoreResultado > 0 && scoreResultado <= 5) :
+            showResult = `Score: ${scoreResultado.toFixed(2)} - BAIXA indicação para a investigação de AH/SD`;
             break;
-        case (scoreResultado > 6 && scoreResultado <= 8) :
-            showResult = `Score: ${scoreResultado} - MÉDIA indicação para a investigação de AH/SD`;
+        case (scoreResultado > 5 && scoreResultado <= 7.5) :
+            showResult = `Score: ${scoreResultado.toFixed(2)} - MÉDIA indicação para a investigação de AH/SD`;
             break;
-        case (scoreResultado > 8) :
-            showResult = `Score: ${scoreResultado} - ALTA indicação para a investigação de AH/SD`;
+        case (scoreResultado > 7.5) :
+            showResult = `Score: ${scoreResultado.toFixed(2)} - ALTA indicação para a investigação de AH/SD`;
             break;
         default :
             showResult = "Resultado Indefinido";
