@@ -8,7 +8,7 @@ window.onload = function() {
     switch (true) {
 
         case (scoreResultado > 0 && scoreResultado <= 6) :
-            rshowResult = `Score: ${scoreResultado} - BAIXA indicação para a investigação de AH/SD`;
+            showResult = `Score: ${scoreResultado} - BAIXA indicação para a investigação de AH/SD`;
             break;
         case (scoreResultado > 6 && scoreResultado <= 8) :
             showResult = `Score: ${scoreResultado} - MÉDIA indicação para a investigação de AH/SD`;
