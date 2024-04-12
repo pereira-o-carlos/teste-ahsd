@@ -34,23 +34,3 @@ function navigateForward() {
 
     window.location.href = url;
 }
-function showResult() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const score = parseInt(urlParams.get('accumulated-score'));
-    var showResult;
-
-    switch (true) {
-
-        case (score > 0 && score <= 4) :
-            rshowResult = "BAIXA indicação para a investigação de AH/SD";
-        case (score > 4 && score <= 7) :
-            showResult = "MÉDIA indicação para a investigação de AH/SD";
-        case (score > 7) :
-            showResult = "ALTA indicação para a investigação de AH/SD";
-        default :
-            showResult = "Resultado Indefinido";
-        }
-
-        document.getElementById('resultadoCalculo').textContent = showResult;
-
-}
